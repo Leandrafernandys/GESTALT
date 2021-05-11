@@ -1,0 +1,48 @@
+body {
+        background-image: url(../imag/ge.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+}
+.bt1 {
+       position: fixed;
+        top:15cm;
+        left: 5cm;
+}
+.bt2 {
+        position: fixed;
+       top: 15cm;
+         left: 9cm;
+ }
+
+ .bt3 {
+        position: fixed;
+      top: 17cm;
+        left: 5cm;
+ }
+
+ .bt4 {
+        position: fixed;
+        top: 19cm;
+         left: 5cm;
+ }
+ .bt5 {
+        position: fixed;
+        top: 21cm;
+         left: 5cm;
+ }
+ .textenter{
+  color: rgb(5, 5, 5);
+  text-shadow: 2px 2px 5px black;
+  position: fixed;
+  left: 3cm; 
+  bottom: 19cm;    
+ }
+ .text{
+        position: fixed;
+        left: 3cm;
+        bottom: 15cm; 
+         color: rgb(3, 3, 3);
+        background-color: rgba(175, 175, 177, 0.61);
+       
+    
+ }
