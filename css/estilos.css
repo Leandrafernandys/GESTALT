@@ -1,48 +1,70 @@
-body {
+.menu {
         background-image: url(../imag/ge.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
+        padding: 500px;
 }
 .bt1 {
-       position: fixed;
+       position: absolute;
         top:15cm;
         left: 5cm;
+        box-shadow: 2px 2px 5px white;
 }
 .bt2 {
-        position: fixed;
+        position: absolute;
        top: 15cm;
          left: 9cm;
+         box-shadow: 2px 2px 5px white;
  }
 
  .bt3 {
-        position: fixed;
+        position: absolute;
       top: 17cm;
         left: 5cm;
+        box-shadow: 2px 2px 5px white;
  }
 
  .bt4 {
-        position: fixed;
+        position: absolute;
         top: 19cm;
          left: 5cm;
+         box-shadow: 2px 2px 5px white;
  }
  .bt5 {
-        position: fixed;
+        position: absolute;
         top: 21cm;
          left: 5cm;
+        box-shadow: 2px 2px 5px white;
  }
  .textenter{
-  color: rgb(5, 5, 5);
+  color: rgb(7, 7, 7);
   text-shadow: 2px 2px 5px black;
-  position: fixed;
+  position: absolute;
   left: 3cm; 
   bottom: 19cm;    
  }
  .text{
-        position: fixed;
+        position: absolute;
         left: 3cm;
-        bottom: 15cm; 
-         color: rgb(3, 3, 3);
-        background-color: rgba(175, 175, 177, 0.61);
-       
-    
+        bottom: 14cm; 
+        color: rgb(5, 5, 5);
+        background-color: rgba(230, 230, 231, 0.781);
+        border-style: solid;
+        border-color: rgba(243, 243, 247, 0.534);
+        padding: 15px;
+        text-shadow: 2px 2px 5px black;
+        
  }
+ h1{
+       font-family: 'Roboto Slab', serif;
+ }
+ h2{
+       width: fit-content;
+       border-bottom: 7px #666 solid;
+       font-family: 'Roboto Slab', serif;
+      
+ }
+
+ /* body{
+        background-color: rgba(155, 151, 151, 0.658);
+ } */
