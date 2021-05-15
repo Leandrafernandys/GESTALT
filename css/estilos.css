@@ -1,41 +1,15 @@
-.menu {
-        background-image: url(../imag/ge.jpg);
+.img {
+        background-image: url(../imag/g.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
-        padding: 500px;
-}
-.bt1 {
-       position: absolute;
-        top:15cm;
-        left: 5cm;
-        box-shadow: 2px 2px 5px white;
-}
-.bt2 {
-        position: absolute;
-       top: 15cm;
-         left: 9cm;
-         box-shadow: 2px 2px 5px white;
- }
+  
+       padding-bottom: 20cm;
+       
 
- .bt3 {
-        position: absolute;
-      top: 17cm;
-        left: 5cm;
-        box-shadow: 2px 2px 5px white;
- }
+       
+        
+}
 
- .bt4 {
-        position: absolute;
-        top: 19cm;
-         left: 5cm;
-         box-shadow: 2px 2px 5px white;
- }
- .bt5 {
-        position: absolute;
-        top: 21cm;
-         left: 5cm;
-        box-shadow: 2px 2px 5px white;
- }
  .textenter{
   color: rgb(7, 7, 7);
   text-shadow: 2px 2px 5px black;
@@ -43,26 +17,37 @@
   left: 3cm; 
   bottom: 19cm;    
  }
- .text{
+ .paragrafo{
         position: absolute;
-        left: 3cm;
-        bottom: 14cm; 
+        left: 15cm;
+        bottom: 7cm; 
         color: rgb(5, 5, 5);
         background-color: rgba(230, 230, 231, 0.781);
         border-style: solid;
         border-color: rgba(243, 243, 247, 0.534);
         padding: 15px;
+        padding-left:1cm;
         text-shadow: 2px 2px 5px black;
+        
         
  }
  h1{
        font-family: 'Roboto Slab', serif;
+       color: white;
+       text-shadow: 2px 2px 5px black;
+       position: absolute;
+       left: 19cm;
+       
+
  }
  h2{
        width: fit-content;
        border-bottom: 7px #666 solid;
        font-family: 'Roboto Slab', serif;
       
+ }
+ .oquee{
+        background-color: rgb(85, 85, 85);
  }
 
  /* body{
