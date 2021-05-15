@@ -25,6 +25,9 @@
         background-color: rgba(230, 230, 231, 0.781);
         border-style: solid;
         border-color: rgba(243, 243, 247, 0.534);
+     
+        text-align-last: center;
+        
         padding: 15px;
         padding-left:1cm;
         text-shadow: 2px 2px 5px black;
@@ -33,10 +36,11 @@
  }
  h1{
        font-family: 'Roboto Slab', serif;
-       color: white;
-       text-shadow: 2px 2px 5px black;
+       color: rgb(255, 255, 255);
+       text-shadow: 3px 3px 5px rgb(0, 0, 0);
        position: absolute;
        left: 19cm;
+       top: 3cm;
        
 
  }
@@ -50,6 +54,23 @@
         background-color: rgb(85, 85, 85);
  }
 
- /* body{
-        background-color: rgba(155, 151, 151, 0.658);
- } */
+footer{
+       background-color: black;
+       padding: 5px;
+}
+
+
+.seta{
+       border-radius: 10px;
+       background-color: rgba(58, 57, 57, 0.76);
+       color: white;
+       padding-left: 18px;
+       padding-top: 15px;
+       padding-bottom: 16px;
+       padding-right: 18px;
+       position: fixed;
+       bottom: 10px;
+       right: 10px;
+       cursor: pointer;
+       display: none;
+}
