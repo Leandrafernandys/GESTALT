@@ -2,8 +2,8 @@
         background-image: url(../imag/g.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
-  
-       padding-bottom: 20cm;
+
+       padding-bottom: 10cm;
        
 
        
@@ -17,8 +17,20 @@
   left: 3cm; 
   bottom: 19cm;    
  }
- .paragrafo{
-        position: absolute;
+
+ 
+ 
+  h1{
+       font-family: 'Roboto Mono', monospace;
+       text-shadow: 2px 2px 5px black;
+  }
+ 
+ 
+ .textinho{
+        background-color: rgba(48, 48, 48, 0.548);
+ }
+ /* .paragrafo{ */
+        /* position: absolute;
         left: 15cm;
         bottom: 7cm; 
         color: rgb(5, 5, 5);
@@ -30,20 +42,8 @@
         
         padding: 15px;
         padding-left:1cm;
-        text-shadow: 2px 2px 5px black;
-        
-        
- }
- h1{
-       font-family: 'Roboto Slab', serif;
-       color: rgb(255, 255, 255);
-       text-shadow: 3px 3px 5px rgb(0, 0, 0);
-       position: absolute;
-       left: 19cm;
-       top: 3cm;
-       
+        text-shadow: 2px 2px 5px black; */
 
- }
  h2{
        width: fit-content;
        border-bottom: 7px #666 solid;
